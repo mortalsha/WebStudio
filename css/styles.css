@@ -70,6 +70,10 @@
   color: var(--focus-hover-color);
 }
 
+.adrees-section {
+  font-style: normal;
+}
+
 .header-adress {
   font-family: "Roboto";
   font-style: normal;
@@ -199,6 +203,14 @@
 }
 
 /*Team section*/
+
+.team-members {
+  background-color: #ffffff;
+}
+
+.team-section {
+  background-color: #f4f4fd;
+}
 
 .centre-row-title {
   font-size: 16px;
