@@ -10,7 +10,7 @@
 
 .body {
   font-family: "Raleway", sans-serif;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--text-color);
 
   background-color: var(--body-color);
@@ -57,7 +57,6 @@
 }
 
 .header-link {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -112,7 +111,8 @@
 }
 
 .hero-btn {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   font-weight: 500;
   display: flex;
   flex-direction: row;
@@ -129,6 +129,13 @@
   border-radius: 4px;
   cursor: pointer;
   color: var(--body-color);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
 }
 
 .portfolio-btn {
@@ -142,10 +149,13 @@
   background: var(--footer-color);
   border: 1px solid var(--button-border);
   border-radius: 4px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: var(--heder-logo-color);
   cursor: pointer;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .portfolio-btn:hover,
@@ -165,7 +175,6 @@
 }
 
 .row-title-p {
-  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -181,6 +190,7 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--heading-color);
+  text-align: center;
 }
 
 .projects-cards {
@@ -191,7 +201,6 @@
 /*Team section*/
 
 .centre-row-title {
-  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -212,7 +221,6 @@
   color: var(--footer-color);
 }
 .footer-row-title {
-  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
